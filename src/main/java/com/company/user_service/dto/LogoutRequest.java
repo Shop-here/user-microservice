@@ -1,0 +1,8 @@
+package com.company.user_service.dto;
+
+import lombok.Data;
+
+@Data
+public class LogoutRequest {
+    private String accessToken;
+}
